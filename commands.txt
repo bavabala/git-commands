@@ -1,0 +1,24 @@
+To show git version
+-------------------
+git --version
+
+git config details
+------------------
+git config --global --list
+git config --global user.name "bavadharani"
+git config --global user.email "bavabala18@gmail.com"
+git config --global --list
+
+cloning branch
+---------------
+using https - git clone https://gitlab.com/litvik1/litvik-rmc-v1.git 
+using ssh - git clone git@gitlab.com:litvik1/litvik-rmc-v1.git 
+
+To list all branch 
+------------------
+git branch -a
+
+To change another branch
+------------------------
+git checkout <branch.name> (by default it will pull main branch after that by using checkout we can switch or navigate to corresponding master or feature branches)
+git checkout master
